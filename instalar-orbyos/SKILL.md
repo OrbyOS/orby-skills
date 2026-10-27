@@ -70,7 +70,7 @@ Dile que abra `http://localhost:8000` (en el Mac se abre solo) y acompáñale:
 4. Lo demás (Apify para investigar, Zernio para publicar, ManyChat para los mensajes, Telegram para el resumen) se
    conecta en Conectores cuando lo necesite.
 
-Explícale cómo abrirlo otro día: en el Mac, doble clic en «Abrir Radar.command» dentro de la carpeta; en Linux,
+Explícale cómo abrirlo otro día: en el Mac, doble clic en «Abrir Orby.command» dentro de la carpeta; en Linux,
 `./arrancar.sh`. Funciona mientras esa ventana esté abierta.
 
 ## Si algo no va

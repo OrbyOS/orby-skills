@@ -65,7 +65,7 @@ bash instalar.sh
 Comprueba que tienes Python y ffmpeg, instala lo que necesita (la primera vez tarda unos minutos: descarga las
 librerías de vídeo y de transcripción) y abre OrbyOS en el navegador, en `http://localhost:8000`.
 
-En el Mac te deja además un acceso directo, **«Abrir Radar.command»**: para abrirlo otro día, doble clic ahí.
+En el Mac te deja además un acceso directo, **«Abrir Orby.command»**: para abrirlo otro día, doble clic ahí.
 OrbyOS trabaja mientras esa ventana esté abierta.
 
 ## Paso 4. Tu cuenta y tu negocio
