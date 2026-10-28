@@ -26,6 +26,7 @@ Luego abre Claude Code (o ciérralo y vuelve a abrirlo) y pídele lo que quieras
 | Si quieres… | Empieza por | Pídele a Claude |
 | --- | --- | --- |
 | Que te edite los reels: silencios, tomas falsas, subtítulos y vertical | [`editar-reels-con-claude`](editar-reels-con-claude) | «Edítame este reel» |
+| Guiones de reel que retienen, o saber por qué el tuyo no engancha | [`guiones-con-criterio`](guiones-con-criterio) | «Escríbeme un guion de 40 segundos sobre…» o «Revisa este guion» |
 | Grabar una vez y sacar varios reels, sin leer guion | [`estructura-para-grabar`](estructura-para-grabar) | «Prepárame una estructura para grabar sobre…» |
 | Que la IA edite con tu estilo y no repita errores | [`manual-de-edicion`](manual-de-edicion) | «Escribe mi manual de edición» |
 | Ideas de vídeos a partir de lo que ya funciona en tu nicho | [`estudiar-videos-que-funcionan`](estudiar-videos-que-funcionan) | «Dime qué vídeos de estas cuentas merece la pena estudiar» |
@@ -65,7 +66,7 @@ curl -fsSL https://raw.githubusercontent.com/OrbyOS/orby-skills/main/instalar.sh
    - Windows: `C:\Users\TU_USUARIO\.claude\skills\`.
 
 **En claude.ai, sin Claude Code.** Las skills que solo trabajan con texto también funcionan en la web y en la app
-de Claude: `estructura-para-grabar`, `manual-de-edicion`, `lente-de-negocio`, `reglas-de-un-agente`,
+de Claude: `guiones-con-criterio`, `estructura-para-grabar`, `manual-de-edicion`, `lente-de-negocio`, `reglas-de-un-agente`,
 `equipo-de-contenido` y `que-dejar-a-la-ia`. Pasos:
 1. Comprime la carpeta de la skill en un ZIP.
 2. En Claude, ve a **Customize → Skills** («Personalizar» si la tienes en español) y pulsa **Upload skill**.
