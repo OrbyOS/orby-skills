@@ -27,6 +27,8 @@ Luego abre Claude Code (o ciérralo y vuelve a abrirlo) y pídele lo que quieras
 | --- | --- | --- |
 | Que te edite los reels: silencios, tomas falsas, subtítulos y vertical | [`editar-reels-con-claude`](editar-reels-con-claude) | «Edítame este reel» |
 | Guiones de reel que retienen, o saber por qué el tuyo no engancha | [`guiones-con-criterio`](guiones-con-criterio) | «Escríbeme un guion de 40 segundos sobre…» o «Revisa este guion» |
+| Que lo que diseñas con IA (webs, landings, correos) no huela a IA, o revisar un diseño | [`diseno-web`](diseno-web) | «Diséñame una landing para…» o «Revisa este diseño» |
+| Tener todo el negocio ordenado en una carpeta que Claude entiende (clientes, contenido, oferta) | [`segundo-cerebro`](segundo-cerebro) | «Monta el segundo cerebro de mi negocio» |
 | Grabar una vez y sacar varios reels, sin leer guion | [`estructura-para-grabar`](estructura-para-grabar) | «Prepárame una estructura para grabar sobre…» |
 | Que la IA edite con tu estilo y no repita errores | [`manual-de-edicion`](manual-de-edicion) | «Escribe mi manual de edición» |
 | Ideas de vídeos a partir de lo que ya funciona en tu nicho | [`estudiar-videos-que-funcionan`](estudiar-videos-que-funcionan) | «Dime qué vídeos de estas cuentas merece la pena estudiar» |
@@ -42,6 +44,12 @@ Si no sabes cuál, empieza por **`editar-reels-con-claude`**: con un vídeo tuyo
 
 No hace falta instalar nada: se leen aquí mismo.
 
+- [Cinco conectores que convierten a Claude en un equipo](guias/conectores-claude.md): Perplexity, Firecrawl,
+  PostHog, Playwright y Composio, para qué sirve cada uno y cómo conectarlo.
+- [Vende el resultado, no el software](guias/servicio-con-ia.md): cómo montar un servicio hecho con IA, empaquetarlo y
+  ponerle precio.
+- [¿Tu web la entiende la IA?](guias/web-para-agentes.md): la lista para que ChatGPT, Claude y Perplexity sepan qué
+  haces y te recomienden.
 - [Instala OrbyOS en tu ordenador](guias/instalar-orbyos.md): el equipo de siete agentes de Orby funcionando en
   unos veinte minutos.
 - [Frases que delatan que lo ha escrito una IA](guias/frases-que-delatan-a-la-ia.md), con una instrucción para que
@@ -66,7 +74,7 @@ curl -fsSL https://raw.githubusercontent.com/OrbyOS/orby-skills/main/instalar.sh
    - Windows: `C:\Users\TU_USUARIO\.claude\skills\`.
 
 **En claude.ai, sin Claude Code.** Las skills que solo trabajan con texto también funcionan en la web y en la app
-de Claude: `guiones-con-criterio`, `estructura-para-grabar`, `manual-de-edicion`, `lente-de-negocio`, `reglas-de-un-agente`,
+de Claude: `guiones-con-criterio`, `diseno-web`, `segundo-cerebro`, `estructura-para-grabar`, `manual-de-edicion`, `lente-de-negocio`, `reglas-de-un-agente`,
 `equipo-de-contenido` y `que-dejar-a-la-ia`. Pasos:
 1. Comprime la carpeta de la skill en un ZIP.
 2. En Claude, ve a **Customize → Skills** («Personalizar» si la tienes en español) y pulsa **Upload skill**.
