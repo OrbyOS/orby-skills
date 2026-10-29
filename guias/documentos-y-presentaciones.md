@@ -39,7 +39,7 @@ diseño en Claude Design.
 ## 3. Diseños
 
 Claude Design crea diseños que puedes retocar directamente sobre el lienzo: una página, una pieza para redes o una
-maqueta. Para que no parezcan hechos por una IA, combínalo con la skill del capítulo 5.7 (diseño web sin olor a IA).
+maqueta. Para que no parezcan hechos por una IA, combínalo con la skill del capítulo 5.8 (diseño web sin olor a IA).
 
 ## 4. Paneles con tus datos (beta)
 
