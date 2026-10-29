@@ -37,7 +37,7 @@ al botón. Cuando uses agentes, esto se escribe como regla (capítulo 4.2).
 ejemplos que no son tuyos.
 
 **La regla:** léelo en voz alta antes de publicarlo, quita lo que no dirías y pon un ejemplo tuyo. La guía del
-capítulo 1.5 tiene la lista de lo que delata un texto hecho con IA.
+capítulo 1.6 tiene la lista de lo que delata un texto hecho con IA.
 
 ## 5. Pegar lo que no debes
 

@@ -56,8 +56,8 @@ Cada conversación empieza casi en blanco. No sabe:
 - qué no prometes nunca.
 
 Por eso, la misma pregunta da respuestas genéricas a todo el mundo. La diferencia entre una respuesta genérica y una
-útil casi nunca es la herramienta: es el contexto que le das. Lo verás en el capítulo 0.3 (pedir bien) y en el 1.2
-(tu negocio, cargado una vez).
+útil casi nunca es la herramienta: es el contexto que le das. Lo verás en el capítulo 0.3 (pedir bien) y en los capítulos 1.2 y 1.3
+(proyectos y tu negocio, por escrito para la IA).
 
 Algunas herramientas recuerdan cosas entre conversaciones (en Claude, la memoria y los proyectos), pero solo lo que
 les has contado antes.

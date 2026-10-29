@@ -46,6 +46,24 @@ Después, dentro de Claude Code, escribe `/mcp` para iniciar sesión y comprobar
 
 ---
 
+## Los que ya trae Claude: Gmail, Google Calendar y Google Drive
+
+Antes de los cinco de esta guía, mira los que Claude ya trae para Google Workspace. Están en todos los planes y se
+conectan iniciando sesión con tu cuenta de Google desde **Customize → Connectors**. En una conversación, el botón **+**
+→ **Connectors** enciende o apaga cada uno.
+
+| Conector | Lo que puede leer | Lo que puede hacer |
+| --- | --- | --- |
+| **Gmail** | Buscar y leer correos (los adjuntos, no) | Preparar borradores; enviar, responder o reenviar, con tu aprobación por defecto |
+| **Google Calendar** | Tus calendarios y los compartidos, y buscar huecos comunes | Crear, cambiar y borrar eventos y responder a invitaciones |
+| **Google Drive** | Buscar y leer documentos, hojas, presentaciones y PDF | Subir archivos y guardar en Drive lo que crea Claude; compartir, mover o borrar, con tu aprobación por defecto |
+
+Además, hay conectores de Google Docs, Sheets y Slides para editar esos archivos en un panel junto a la conversación.
+
+**Para qué en un negocio:** «¿Qué clientes me han escrito esta semana pidiendo presupuesto y a cuáles no he
+contestado?», «Busca un hueco de una hora con Marta la semana que viene» o «Resume el contrato de [cliente] que está
+en Drive». En los planes Team y Enterprise, quien administra la cuenta tiene que activarlos antes.
+
 ## 1. Perplexity: buscar con fuentes
 
 **Qué hace.** Claude busca en internet a través de Perplexity y te devuelve respuestas con sus fuentes. Tiene cuatro
@@ -215,7 +233,8 @@ Si ves guías antiguas que hablan de «Rube», era el nombre de su conector ante
 
 ## Fuentes
 
-- Claude: [conectores personalizados](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
+- Claude: [conectores personalizados](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp)
+  y [conectores de Google Workspace](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors).
 - Perplexity: [servidor MCP](https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server) y [precios](https://docs.perplexity.ai/getting-started/pricing).
 - Firecrawl: [Claude Desktop](https://docs.firecrawl.dev/quickstarts/claude-desktop), [servidor MCP](https://docs.firecrawl.dev/mcp-server) y [precios](https://www.firecrawl.dev/pricing).
 - PostHog: [Claude Desktop](https://posthog.com/docs/model-context-protocol/claude-desktop), [Claude Code](https://posthog.com/docs/model-context-protocol/claude-code) y [precios](https://posthog.com/product-analytics/pricing).

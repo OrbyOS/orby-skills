@@ -43,12 +43,12 @@ La primera respuesta es un borrador. Lo útil viene después:
 
 ## 4. Tú decides, ella prepara
 
-El reparto que funciona: **la IA prepara y tú decides**. Ella hace el 80 % del trabajo pesado y tú pones lo que solo
-tú sabes: el criterio, el trato con el cliente y la última palabra.
+El reparto que funciona: **la IA prepara y tú decides**. Ella hace la mayor parte del trabajo pesado y tú pones lo que
+solo tú sabes: el criterio, el trato con el cliente y la última palabra.
 
 > [!TIP]
 > Si una tarea te lleva más de diez minutos cada semana y siempre se parece, apúntala: es candidata a pasar por la
-> IA. El capítulo 1.2 te ayuda a elegir por cuál empezar.
+> IA. El capítulo 1.3 te ayuda a elegir por cuál empezar.
 
 ## 5. Un ejemplo de principio a fin
 
