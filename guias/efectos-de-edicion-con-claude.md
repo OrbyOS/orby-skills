@@ -7,9 +7,6 @@ los genera, así que puedes cambiar cualquier palabra, color o tiempo y volver a
 Aquí tienes la puesta a punto y los 14 efectos, cada uno con su prompt listo para copiar. Cambia lo que va entre
 corchetes por tu estilo: tipografía, colores y tiempos.
 
-Basado en la guía de feedmedia [«How to edit videos with Claude: every effect from my video»](https://feedmedia.notion.site/How-to-edit-videos-with-Claude-every-effect-from-my-video-4041d073e26281f690a6f4ab2f5f1e93),
-adaptado y redactado de nuevo en castellano.
-
 ---
 
 ## La puesta a punto

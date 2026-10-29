@@ -51,6 +51,10 @@ Están en todos los planes. En el plan gratuito puedes tener hasta cinco.
 - **Datos de clientes:** lo que subas a un proyecto sigue las mismas reglas de privacidad que tus conversaciones
   (capítulo 0.5).
 
+> [!NOTE]
+> En Claude Code (la pestaña Code de la aplicación de escritorio) los proyectos son otra cosa: una conversación en la
+> que Claude coordina varios hilos de trabajo en paralelo. Lo explica el capítulo 3.2.
+
 ## 5. En resumen
 
 - Un proyecto guarda instrucciones y documentos para todas sus conversaciones.
