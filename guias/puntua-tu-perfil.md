@@ -3,8 +3,7 @@
 Alguien ve uno de tus vídeos, le gusta y entra en tu perfil. En unos segundos decide si te sigue, te escribe o se
 va. Esta hoja te dice qué ve esa persona y qué arreglar primero.
 
-Se hace en diez minutos, con tu perfil abierto en el móvil. Es la misma rúbrica con la que Lupi, el agente de
-investigación de [Orby](https://orbyos.es), puntúa los perfiles.
+Se hace en diez minutos, con tu perfil abierto en el móvil.
 
 ---
 

@@ -9,7 +9,7 @@ Esta guía tiene tres partes:
 2. Una instrucción para pegar en cualquier IA, para que no escriba así desde el principio.
 3. Cómo comprobar que ha funcionado.
 
-Es la lista que usa Escri, el agente de guiones de [Orby](https://orbyos.es), antes de enseñar ningún texto.
+Es la misma lista con la que se revisa cualquier texto antes de publicarlo.
 
 Ninguna lista hace que un texto «no se note». Lo que hace que suene a ti es lo que solo tú sabes: tus ejemplos, tus
 clientes, cómo hablas. La lista quita el ruido; lo tuyo lo pones tú.
