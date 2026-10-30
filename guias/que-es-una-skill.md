@@ -3,7 +3,7 @@
 Una skill es una carpeta con instrucciones (y, a veces, archivos y código) que le enseña a Claude a hacer una tarea
 concreta de principio a fin, siempre igual. La instalas una vez y Claude la usa sola cuando le pides esa tarea.
 
-Revisada el 29 de octubre de 2026 con la ayuda oficial de Claude (enlaces al final).
+Revisada el 30 de octubre de 2026 con la ayuda oficial de Claude y la web de skills.sh (enlaces al final).
 
 ---
 
@@ -53,11 +53,60 @@ Si cumple las tres, conviértela en skill (capítulo 2.3).
 > Instala skills solo de fuentes de confianza y, si vienen de alguien que no conoces, revisa sus archivos antes de
 > activarlas: una skill puede llevar código.
 
-## 5. En resumen
+## 5. Antes de instalar una skill
+
+Hay skills hechas por otros para casi todo, y la mayoría no pasan ningún filtro antes de publicarse. El orden que
+evita sustos: **la encuentras, miras su auditoría y solo entonces la instalas.**
+
+### La encuentras
+
+**skills.sh** es un directorio abierto de skills para agentes de IA, con un ranking por instalaciones. El contador
+de su ranking pasa de un millón y medio. La número uno es **find-skills**, con más de 4 millones de instalaciones: una
+skill que busca skills por ti. Se instala con:
+
+```bash
+npx skills add https://github.com/vercel-labs/skills --skill find-skills
+```
+
+Después, pídele a Claude Code lo que necesitas:
+
+```text
+Busca una skill para [tarea], dime las tres mejores con sus instalaciones y su auditoría de seguridad, y no instales
+ninguna hasta que elija.
+```
+
+### Miras la auditoría
+
+skills.sh tiene una página de **auditorías de seguridad** (skills.sh/audits) y cada skill enseña la suya en su página.
+La revisan tres auditores, cada uno en su columna: **Gen**, **Socket** y **Snyk**. Lo que vas a ver:
+
+| Etiqueta | Qué te dice |
+| --- | --- |
+| **Safe** o **Pass** | Ese auditor no ha encontrado nada |
+| **0 alerts**, **1 alerts**… | Las alertas que ha encontrado Socket. Cero es lo que buscas |
+| **Low Risk** | Riesgo bajo: lee qué hace antes de instalarla |
+| **Med Risk** o **Warn** | Riesgo medio o un aviso: mira sus archivos o pídele a Claude que los revise contigo |
+| **High Risk** | Riesgo alto: no la instales |
+| **Pending** | La auditoría aún no ha terminado: espera |
+
+La web no explica el detalle de cada etiqueta, así que tómalas como una señal, no como un veredicto. Y la propia web
+avisa de que no puede garantizar la calidad ni la seguridad de cada skill, y pide revisarlas antes de instalarlas.
+
+### La instalas
+
+Solo si la auditoría está limpia y la skill viene de alguien de confianza. Si tienes dudas, pídeselo así:
+
+```text
+Antes de instalar esta skill, lee todos sus archivos y dime qué hace, qué comandos ejecuta, a qué webs se conecta y si
+toca mis archivos o mis claves: [enlace a la skill].
+```
+
+## 6. En resumen
 
 - Un pedido para lo puntual, un proyecto para el contexto y una skill para la tarea que repites.
 - Funcionan en Claude y en Claude Code, en todos los planes.
 - Se activan en Customize → Skills; si ves «Plugins», es lo mismo.
+- Antes de instalar una de otro: la encuentras, miras su auditoría y solo entonces la instalas.
 
 ---
 
@@ -65,6 +114,8 @@ Si cumple las tres, conviértela en skill (capítulo 2.3).
 
 - Ayuda de Claude: [usar skills en Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude) y
   [plugins, skills y conectores en una sola página](https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page).
+- skills.sh: [ranking](https://skills.sh), [auditorías de seguridad](https://skills.sh/audits) y
+  [preguntas frecuentes](https://skills.sh/docs) (consultado el 30/10/2026).
 
 ---
 
