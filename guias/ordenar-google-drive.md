@@ -4,16 +4,21 @@ Facturas sueltas, contratos con nombres como «documento (3)», tres copias de l
 mano lleva una tarde entera. Con Claude en Chrome, Claude lo revisa contigo: propone una estructura de carpetas,
 marca los duplicados, te enseña el plan y solo mueve o renombra cuando le das el visto bueno.
 
-Revisada el 30 de octubre de 2026 con la ayuda oficial de Claude (enlaces al final).
+Revisada el 30 de octubre de 2026 con la ayuda oficial y el blog de Claude (enlaces al final).
 
 ---
 
 ## 1. Qué te hace falta
 
 - **Google Chrome** en el ordenador. Claude en Chrome no funciona en otros navegadores ni en el móvil.
-- **Un plan de pago de Claude** (Pro, Max, Team o Enterprise).
+- **Un plan de pago de Claude** (Pro, Max, Team o Enterprise). En el gratuito no está.
 - **La extensión Claude en Chrome**, instalada desde la Chrome Web Store, con tu cuenta de Claude. Fíjala en la barra
   para tenerla a mano.
+
+**El panel lateral es una sesión de Cowork** desde el 12 de agosto de 2026: la conversación se guarda en tu historial,
+puedes usar tus skills y conectores, y lo que empiezas en Chrome lo puedes seguir en la aplicación de escritorio, la
+web o el móvil. Max y Team ya lo tienen, y a Pro le va llegando poco a poco. Si prefieres el panel de antes, en el
+panel pulsa los tres puntos de arriba a la derecha y elige **Switch back to classic** (volver al clásico).
 
 Claude en Chrome ve la página que tienes abierta y puede leer, hacer clic, escribir y moverse por ella, igual que
 harías tú. Por eso sirve para Drive: abre carpetas, mira qué hay en cada archivo, mueve y renombra.
@@ -45,23 +50,32 @@ Además:
 1. Abre **drive.google.com** en Chrome y entra en la carpeta que quieres ordenar.
 2. Abre el panel de **Claude en Chrome** con el icono de la extensión.
 
-## 4. Que revise la carpeta y proponga un plan
+## 4. Que revise la carpeta y proponga la estructura
 
 Pega este mensaje en el panel de Claude:
 
 ```text
 Revisa esta carpeta de Google Drive y todo lo que tiene dentro, sin mover, renombrar ni borrar nada todavía.
 Quiero ordenarla en estas carpetas: Clientes (una subcarpeta por cliente), Proveedores, Facturas, Contratos y
-Marketing. Mira el contenido de cada archivo, no solo el nombre, y prepárame un plan en una tabla: nombre actual,
-qué es, a qué carpeta iría y por qué. Marca aparte los archivos que parezcan duplicados (y de qué otro archivo) y los
-que no sepas identificar. Deja fuera las carpetas compartidas. Enséñame el plan y espera a que te diga que sí.
-No borres nada.
+Marketing. Mira el contenido de cada archivo, no solo el nombre, y dime a qué carpeta iría cada uno. Marca aparte los
+archivos que parezcan duplicados (y de qué otro archivo) y los que no sepas identificar. Deja fuera las carpetas
+compartidas. No borres nada.
+```
+
+## 5. Que te enseñe el plan antes de mover nada
+
+Antes de tocar un solo archivo, pídele el plan completo:
+
+```text
+Antes de mover nada, enséñame el plan completo en una tabla: nombre actual del archivo, qué es, carpeta de origen,
+carpeta de destino y por qué. Pon al final, aparte, los duplicados y los que no has identificado, que se quedan
+donde están. No hagas ningún cambio hasta que te diga que sí.
 ```
 
 Lee la tabla con calma. Corrige lo que no te cuadre («el archivo X es de Proveedores, no de Clientes») y pídele que
 la actualice.
 
-## 5. Aplicar el plan
+## 6. Aplicar el plan
 
 Cuando el plan te convenza:
 
@@ -73,7 +87,7 @@ fallado.
 
 Revisa el resultado en Drive. Si algo no está donde debía, díselo y lo arregla.
 
-## 6. Renombrar por contenido
+## 7. Renombrar por contenido
 
 Con todo en su sitio, que cada archivo diga qué es. El formato **fecha_tipo_cliente** (por ejemplo,
 `2026-10-15_factura_cliente-ejemplo`) ordena solo por fecha y se encuentra con el buscador:
@@ -85,7 +99,7 @@ minúsculas y con guiones en lugar de espacios. Antes de cambiar nada, enséñam
 nuevo, y espera a que te diga que sí. Si no sabes la fecha o el cliente de un archivo, déjalo como está y márcalo.
 ```
 
-## 7. En resumen
+## 8. En resumen
 
 - Claude en Chrome ordena tu Drive viendo lo que hay en cada archivo, como lo harías tú.
 - Primero el plan, luego mover, luego renombrar. Cada paso, con tu visto bueno.
@@ -97,6 +111,8 @@ nuevo, y espera a que te diga que sí. Si no sabes la fecha o el cliente de un a
 
 - Ayuda de Claude: [empezar con Claude en Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)
   y [usar Claude en Chrome con seguridad](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely).
+- Blog de Claude: [el panel lateral de Claude en Chrome, ahora con Cowork](https://claude.com/blog/cowork-chrome-side-panel)
+  (12/08/2026).
 
 ---
 
