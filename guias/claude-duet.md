@@ -4,7 +4,8 @@ Hasta ahora, la IA esperaba a que le preguntaras. Claude Duet funciona al revés
 avisa de lo que necesita tu atención, hace las tareas que le encargas y sigue trabajando cuando no estás. Antes de
 actuar en tu nombre, te pide permiso.
 
-Revisada el 29 de octubre de 2026 con la página oficial de Claude Duet (enlace al final). Es una vista previa: puede
+Revisada el 30 de octubre de 2026 con la página oficial de Claude Duet y las notas de versión de Claude (enlaces al
+final). Es una vista previa: puede
 cambiar.
 
 ---
@@ -40,10 +41,26 @@ Si ya tienes esas reglas claras para tu negocio (capítulos 4.2 y 6.1), estarás
 > Conecta solo las aplicaciones que necesites, y lee cada acción antes de aprobarla. Puedes desconectar cualquier
 > aplicación cuando quieras.
 
-## 4. En resumen
+## 4. Mientras llega a España
+
+Duet aún no se puede usar en España, pero buena parte de lo que hace ya la tienes en las conversaciones normales de
+Claude:
+
+| Qué | Para quién | Dónde se explica |
+| --- | --- | --- |
+| **Documentos, presentaciones y diseños en cualquier conversación:** se los pides y los crea ahí mismo, para editarlos juntos | Todos los planes, también el gratuito | Capítulo 1.4 |
+| **Paneles con tus datos (beta):** conectas tus datos o tu CRM, preguntas en lenguaje normal y monta un panel que se actualiza solo; cada cifra enlaza a la consulta de la que sale | Planes de pago | Capítulo 1.4 |
+| **Tareas, proyectos y conectores en la misma conversación:** sin elegir modo, trabaja con tus herramientas conectadas y tus skills | Pro y Max, en la web, el escritorio y el móvil. Se activa poco a poco | Capítulos 1.7 y 3.1 |
+
+Lo que no tienes todavía es lo que hace distinto a Duet: que te escriba él primero y que siga trabajando cuando no
+estás. Mientras tanto, la diferencia es que el primer paso lo das tú.
+
+## 5. En resumen
 
 - Un agente que te avisa, trabaja en segundo plano y pide permiso antes de lo importante.
 - Pro y Max, de momento solo en Estados Unidos y con lista de espera.
+- Mientras llega a España: documentos y presentaciones (todos los planes), paneles con tus datos (de pago) y
+  tareas con tus conectores en la misma conversación (Pro y Max).
 - Prepárate escribiendo hoy las reglas de qué puede hacer sola la IA en tu negocio.
 
 ---
@@ -51,6 +68,8 @@ Si ya tienes esas reglas claras para tu negocio (capítulos 4.2 y 6.1), estarás
 ## Fuentes
 
 - Claude: [Claude Duet](https://claude.com/resources/articles/claude-duet) (21/10/2026).
+- Claude: [notas de versión](https://support.claude.com/en/articles/12138966-release-notes) (16/09/2026) y
+  [Dashboards y Motion](https://claude.com/blog/dashboards-and-motion) (08/10/2026).
 
 ---
 
