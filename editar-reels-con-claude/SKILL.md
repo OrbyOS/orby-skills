@@ -26,6 +26,18 @@ de esa carpeta (normalmente `~/.claude/skills/editar-reels-con-claude`) y `PY` e
 - Cuando el usuario corrija algo del montaje, arréglalo y pregúntale si quiere apuntarlo como regla en
   `MANUAL-EDICION.md` para la próxima vez (la skill `manual-de-edicion` explica cómo escribirla).
 
+## Que no parezca hecho con inteligencia artificial
+
+Si el usuario no ha pedido otra cosa, cualquier añadido al reel sigue estas reglas:
+- **Subtítulos:** tipografía sencilla y gruesa, sin remates ni cursivas (`--fuente "Arial Black"`, o el archivo de
+  una fuente así con `--fuente-archivo`).
+- **Texto del gancho:** sin fondo, o sobre un fondo liso blanco o negro. Nada de degradados ni de cristal.
+- **Imágenes y capturas:** solo las que el usuario deja en una carpeta. No busques ni descargues imágenes por tu
+  cuenta: si son de otros y se publican sin permiso, la red puede quitar el vídeo o cerrar la cuenta.
+- **Cómo entran:** rectas, sin esquinas redondeadas, sin bordes blancos y sin animarlas por encima.
+- **Ritmo:** cortes secos en cada silencio de más de una décima (`cortar_silencios.py --minimo 0.1`), sin
+  transiciones. Alguna animación suelta, pero nunca letras que bailan.
+
 ## Paso 0. Comprobar el equipo
 
 ```bash
