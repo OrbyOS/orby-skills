@@ -1,4 +1,4 @@
-# A quién copiar en Instagram, sin buscar por hashtags
+# Cómo copiar contenido viral con Claude, sin buscar por hashtags
 
 Copiar lo que ya funciona es la forma más rápida de acertar con el contenido. Pero solo sirve si copias a cuentas que
 le hablan a tu mismo cliente, y eso no lo da un hashtag. Esta guía explica el método para encontrarlas con Claude
