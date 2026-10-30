@@ -1,6 +1,6 @@
 ---
 name: estructura-para-grabar
-description: Prepara una estructura para grabar a cámara unos minutos hablando libre, sin leer, y sacar de esa grabación tres o cuatro reels que se sostienen solos. Pregunta el tema, a quién se habla y los ejemplos reales del negocio, y entrega la estructura y una chuleta para el móvil. Úsala cuando alguien quiera grabar varios vídeos de una vez, no sepa qué decir delante de la cámara, quiera dejar de leer guiones o pida una estructura, un esquema o una escaleta para grabar.
+description: Prepara una estructura para grabar a cámara unos minutos hablando libre, sin leer, y sacar de esa grabación tres o cuatro reels que se sostienen solos. Pregunta el tema, a quién se habla y los ejemplos reales del negocio, y entrega la estructura y una chuleta para el móvil. Úsala cuando alguien quiera grabar varios vídeos de una vez, no sepa qué decir delante de la cámara, quiera dejar de leer guiones pida una estructura, un esquema o una escaleta para grabar, o quiera probar varios ganchos de un vídeo de referencia (ganchos por cuerpos).
 ---
 
 # Estructura para grabar una vez y sacar varios reels
@@ -53,6 +53,22 @@ Añade siempre, tal cual o adaptadas, estas instrucciones al final de la estruct
    explicaciones, que quepa en una pantalla.
 3. Dile cómo sacar los reels cuando lo tenga grabado: con la skill `editar-reels-con-claude` («sácame los reels de
    esta grabación»), que corta cada bloque, quita las tomas falsas y le pone subtítulos.
+
+## Otra forma de grabar: ganchos por cuerpos
+
+Si el usuario trae un vídeo de referencia y quiere probar varios ganchos, esta forma sí se lee. No sustituye a la
+estructura sin leer: sirve para otra cosa, para sacar varias versiones de un mismo vídeo y ver cuál funciona.
+
+1. **El guion, con el formato de la referencia.** Pide la transcripción del vídeo de referencia (o que te cuente qué
+   dice) y desmonta su formato: cómo abre, cuántos pasos tiene, cómo cierra. Escribe con ese formato y el tema del
+   usuario **tres ganchos** distintos (de menos de tres segundos cada uno) y **dos cuerpos** distintos. Cualquier
+   gancho tiene que encajar con cualquier cuerpo. No copies frases de la referencia.
+2. **Se graba seguido.** Primero los tres ganchos, después los dos cuerpos, con dos segundos de silencio mirando a
+   cámara entre uno y otro. Aquí se puede leer el guion, desde un teleprompter o desde el móvil junto a la cámara.
+3. **Las 6 combinaciones.** Con la skill `editar-reels-con-claude` se limpia la grabación y se monta cada gancho con
+   cada cuerpo: 3 × 2 = 6 vídeos. Nombra cada archivo con su combinación (`gancho1-cuerpo2.mp4`).
+4. **Publicar.** La mejor combinación se publica hoy y el resto, una al día. Compara después cuál ha ido mejor
+   frente a lo normal de su cuenta: así sabe qué gancho y qué cuerpo repetir.
 
 ## Revisión antes de entregar
 
