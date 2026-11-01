@@ -46,6 +46,12 @@ No hace falta instalar nada: se leen aquí mismo.
 
 - [Cinco conectores que convierten a Claude en un equipo](guias/conectores-claude.md): Perplexity, Firecrawl,
   PostHog, Playwright y Composio, para qué sirve cada uno y cómo conectarlo.
+- [Una fábrica de agentes](guias/fabrica-de-agentes.md): planifican, construyen y revisan, y tú apruebas.
+- [Elige un solo trabajo y valida un agente que lo haga](guias/un-trabajo-para-un-agente.md): el examen, antes de construir.
+- [Editar tus vídeos con Claude, paso a paso](guias/editar-con-claude-paso-a-paso.md): carpetas, entrevista de estilo y primer
+  mensaje.
+- [Dónde poner en internet una app hecha con Claude](guias/donde-subir-tu-app.md): Vercel, Railway o Hetzner, con precios.
+- [Cuatro trucos de GitHub cambiando la dirección web](guias/trucos-de-github.md): entender cualquier proyecto con IA.
 - [Vende el resultado, no el software](guias/servicio-con-ia.md): cómo montar un servicio hecho con IA, empaquetarlo y
   ponerle precio.
 - [¿Tu web la entiende la IA?](guias/web-para-agentes.md): la lista para que ChatGPT, Claude y Perplexity sepan qué
