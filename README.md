@@ -48,6 +48,12 @@ No hace falta instalar nada: se leen aquí mismo.
   PostHog, Playwright y Composio, para qué sirve cada uno y cómo conectarlo.
 - [Empieza de cero con Claude](guias/empieza-de-cero-con-claude.md): la ruta de un fin de semana, con las 50 preguntas de tu «Sobre mí».
 - [Que Claude aprenda de un vídeo de YouTube](guias/claude-mira-youtube.md) y lo convierta en una skill.
+- [Cuatro reglas para que Claude Code no se pase de listo](guias/karpathy-skills.md): qué dicen, cómo instalarlas y una versión para cualquier tarea.
+- [Que Claude te interrogue antes de construir nada](guias/grill-me.md): `grill-me` para campañas, webs y apps, sin programar.
+- [Claude y ChatGPT juntos](guias/claude-y-chatgpt-juntos.md): el plugin de Codex para Claude Code, con lo que gasta cada plan.
+- [Nueve apps gratis de GitHub](guias/apps-gratis-de-github.md): qué sustituyen, qué instalar y lo que pierdes.
+- [Clonar tu voz gratis, en tu ordenador](guias/clonar-voz-gratis.md), y la licencia que debes mirar antes de usarlo en un negocio.
+- [Cinco proyectos con Claude para un fin de semana](guias/cinco-proyectos-finde.md), del asistente de correo al equipo de agentes.
 - [Quita la publicidad de tu tele Android](guias/limpiar-tele-android.md) con Claude Code, y cómo deshacerlo.
 - [Rehacer una app con Claude](guias/rehacer-una-app.md) y arreglar lo que odian sus usuarios, con sus avisos.
 - [Cómo aparecer en las respuestas de IA de Google](guias/aparecer-en-google-ia.md): lo que dice Google y un método con Search Console.
