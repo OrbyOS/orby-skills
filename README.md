@@ -48,6 +48,16 @@ No hace falta instalar nada: se leen aquí mismo.
   PostHog, Playwright y Composio, para qué sirve cada uno y cómo conectarlo.
 - [Empieza de cero con Claude](guias/empieza-de-cero-con-claude.md): la ruta de un fin de semana, con las 50 preguntas de tu «Sobre mí».
 - [Que Claude aprenda de un vídeo de YouTube](guias/claude-mira-youtube.md) y lo convierta en una skill.
+- [Free Claude Code: usa Claude Code con modelos gratis](guias/free-claude-code.md).
+- [OpenJarvis: tu asistente personal, en tu ordenador](guias/open-jarvis.md).
+- [Un solo agente y un manual por tarea](guias/un-agente-muchas-skills.md).
+- [Cuatro plugins para Claude Code](guias/cuatro-plugins.md).
+- [SupoClip: la alternativa abierta a Opus Clip](guias/alternativa-opusclip.md).
+- [Pixel Agents: tus agentes de Claude Code, en una oficina](guias/pixel-agents.md).
+- [Monta tu Jarvis con nueve piezas](guias/jarvis-nueve-piezas.md).
+- [Skills de Claude para llevar un canal de YouTube](guias/skill-canal-youtube.md).
+- [Qué es MCP, explicado sin tecnicismos](guias/que-es-mcp.md).
+- [Cambia el ángulo de cámara de un vídeo ya grabado](guias/cambiar-angulo-video.md).
 - [Cuatro reglas para que Claude Code no se pase de listo](guias/karpathy-skills.md): qué dicen, cómo instalarlas y una versión para cualquier tarea.
 - [Que Claude te interrogue antes de construir nada](guias/grill-me.md): `grill-me` para campañas, webs y apps, sin programar.
 - [Claude y ChatGPT juntos](guias/claude-y-chatgpt-juntos.md): el plugin de Codex para Claude Code, con lo que gasta cada plan.
