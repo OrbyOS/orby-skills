@@ -4,10 +4,11 @@ Hay textos que se notan a la primera línea: «En el mundo de hoy en día…», 
 revolución», tres emojis de cohete. No es que la IA escriba mal. Es que repite las mismas muletillas, y quien lee
 muchos textos las reconoce.
 
-Esta guía tiene tres partes:
+Esta guía tiene cuatro partes:
 1. La lista para repasar un texto antes de publicarlo.
 2. Una instrucción para pegar en cualquier IA, para que no escriba así desde el principio.
-3. Cómo comprobar que ha funcionado.
+3. Dos mensajes para que Claude lo aprenda de la lista de Wikipedia y lo guarde como skill.
+4. Cómo comprobar que ha funcionado.
 
 Es la misma lista con la que se revisa cualquier texto antes de publicarlo.
 
@@ -149,7 +150,46 @@ Escribe como habla una persona, no como un folleto. Reglas:
 
 ---
 
-## 3. Cómo comprobarlo
+## 3. Que Claude aprenda de la lista de Wikipedia y lo guarde
+
+Los editores de Wikipedia mantienen una página muy completa con las señales que ven en los textos escritos con IA:
+[Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). Está en inglés y va más allá de las palabras:
+por ejemplo, darle a todo una importancia exagerada, atribuir opiniones a «algunos expertos» sin decir quiénes, o corregir ideas
+que nadie había defendido. Dos mensajes para aprovecharla en Claude Code (capítulo 3.2):
+
+**El primero, para que la lea y deje de escribir así:**
+
+```text
+Lee esta página entera: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing. Está pensada para el inglés: adapta cada
+patrón a cómo se escribe en español de España. Explícame con tus palabras los patrones que más afecten a [posts, correos, guiones],
+con un ejemplo de cada uno. A partir de ahora, evítalos en lo que escribas. Después, revisa este texto y dime qué patrones encuentras,
+sin cambiar los datos ni lo que quiero decir: [pega tu texto].
+```
+
+**El segundo, para no volver a pedírselo:**
+
+```text
+Con el creador de skills (skill-creator), guarda esto como una skill llamada escribir-como-yo, escrita con tus palabras y con el
+enlace a la página de Wikipedia. Tiene que usarse cuando te pida escribir o revisar un texto. Añade estas reglas: mis ejemplos y mi
+forma de hablar mandan sobre la lista: [pega dos o tres textos tuyos]; no inventes datos, y lo que no puedas comprobar, márcalo
+como [PENDIENTE]; un rasgo aislado no es un fallo, no lo cambies por cambiarlo. Pruébala con un texto mío y enséñame el antes y el después.
+```
+
+Si aún no tienes el creador de skills, en el capítulo 2.5 está cómo instalarlo.
+
+> [!IMPORTANT]
+> **Lo que dice la propia Wikipedia:** ni los detectores de IA ni el ojo humano son fiables para saber quién ha escrito un texto.
+> Y estas señales son solo indicios: quitarlas no arregla los problemas de fondo, solo hace que se noten menos.
+
+Un texto sin muletillas puede seguir siendo flojo o estar equivocado. **Comprueba los datos, las citas y los enlaces**, y añade lo que
+solo sabes tú.
+
+El objetivo es que suene a ti, no engañar a nadie. Si en un sitio es obligatorio declarar que has usado IA, como algunas revistas,
+universidades, clientes o concursos, decláralo, por mucho que no se note.
+
+---
+
+## 4. Cómo comprobarlo
 
 Antes de publicar:
 1. Lee el texto en voz alta. Donde te trabes o te suene raro decirlo, cámbialo.
@@ -158,6 +198,13 @@ Antes de publicar:
 3. Cuenta los «tú» o «yo». Si no hay ninguno, el texto no le habla a nadie.
 4. Mira si hay algo que solo podrías haber escrito tú: un ejemplo, un cliente, algo que te pasó. Si no hay nada,
    eso es lo que falta, no un sinónimo.
+
+---
+
+## Fuentes
+
+- Wikipedia: [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) (patrones y avisos sobre detectores, sobre
+  el juicio humano y sobre tratar las señales como el problema).
 
 ---
 

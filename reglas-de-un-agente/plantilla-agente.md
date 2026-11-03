@@ -41,5 +41,8 @@ No lo supongas. Márcalo como «pendiente» en la entrega y pregunta.
 ## Pendiente
 [Lo que el dueño aún no ha decidido.]
 
+## Revisión periódica
+Cada [plazo], el dueño revisa una muestra de lo que has hecho, qué has cambiado, las herramientas que tienes y lo que cuesta.
+
 ## Lo que he aprendido
 (Cada corrección del dueño se apunta aquí como regla, con la fecha. Estas reglas mandan sobre las de arriba.)

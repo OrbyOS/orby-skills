@@ -46,6 +46,11 @@ No hace falta instalar nada: se leen aquí mismo.
 
 - [Cinco conectores que convierten a Claude en un equipo](guias/conectores-claude.md): Perplexity, Firecrawl,
   PostHog, Playwright y Composio, para qué sirve cada uno y cómo conectarlo.
+- [Empieza de cero con Claude](guias/empieza-de-cero-con-claude.md): la ruta de un fin de semana, con las 50 preguntas de tu «Sobre mí».
+- [Que Claude aprenda de un vídeo de YouTube](guias/claude-mira-youtube.md) y lo convierta en una skill.
+- [Quita la publicidad de tu tele Android](guias/limpiar-tele-android.md) con Claude Code, y cómo deshacerlo.
+- [Rehacer una app con Claude](guias/rehacer-una-app.md) y arreglar lo que odian sus usuarios, con sus avisos.
+- [Cómo aparecer en las respuestas de IA de Google](guias/aparecer-en-google-ia.md): lo que dice Google y un método con Search Console.
 - [Una fábrica de agentes](guias/fabrica-de-agentes.md): planifican, construyen y revisan, y tú apruebas.
 - [Elige un solo trabajo y valida un agente que lo haga](guias/un-trabajo-para-un-agente.md): el examen, antes de construir.
 - [Editar tus vídeos con Claude, paso a paso](guias/editar-con-claude-paso-a-paso.md): carpetas, entrevista de estilo y primer

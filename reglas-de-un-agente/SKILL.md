@@ -80,6 +80,9 @@ No lo des por bueno sin una prueba:
 3. Compara lo que entrega con el ejemplo bueno.
 4. Si falla, corrige la regla que falta o que se entiende mal, y apúntalo en «Lo que he aprendido».
 
+Cuando funcione, acuerda con el usuario cada cuánto va a revisar lo que ha hecho el agente (por defecto, una vez al mes) y apúntalo en
+«Revisión periódica». Una prohibición escrita no basta: lo que no debe hacer nunca, quítaselo también de las herramientas.
+
 Explícale al usuario cómo mejorarlo con el uso: cada vez que corrija algo, que le diga a Claude «apunta esto como
 regla en el agente»; la regla va a «Lo que he aprendido» y el agente no repite el error.
 
@@ -88,4 +91,5 @@ regla en el agente»; la regla va a «Lo que he aprendido» y el agente no repit
 - ¿El objetivo se puede comprobar?
 - ¿Todo lo que sale hacia fuera, cuesta dinero o no se puede deshacer está en «necesita tu OK» o en «nunca»?
 - ¿Tiene un ejemplo bueno de entrega?
-- ¿Las herramientas son solo las que necesita?
+- ¿Las herramientas son solo las que necesita? ¿Le has quitado las que permitirían hacer lo de la lista «nunca»?
+- ¿Tiene fecha de revisión periódica?
