@@ -25,6 +25,16 @@ Para efectos más elaborados, sigue después con el capítulo 5.5.
 curl -fsSL https://raw.githubusercontent.com/OrbyOS/orby-skills/main/instalar.sh | bash
 ```
 
+¿Prefieres que lo haga Claude? Pégale este prompt en Claude Code:
+
+```text
+Instala las skills de edición de este repositorio público: https://github.com/OrbyOS/orby-skills. Necesito editar-reels-con-claude,
+manual-de-edicion y estudiar-videos-que-funcionan. Léeme antes lo que vas a ejecutar, instálalas en ~/.claude/skills y dime
+cuándo tengo que reiniciar Claude Code.
+```
+
+Sirven para cortar el vídeo, poner subtítulos y animaciones, estudiar los vídeos que te gustan y sacar su estilo.
+
 Instala las skills en `~/.claude/skills`. Luego cierra Claude Code y vuelve a abrirlo. Los programas que hacen el trabajo
 (ffmpeg y faster-whisper) te los comprueba Claude al empezar y te pide permiso antes de instalarlos. Son gratis y funcionan
 en tu ordenador; la primera transcripción descarga unos cientos de megas.
