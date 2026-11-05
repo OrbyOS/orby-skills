@@ -4,7 +4,7 @@ Una guía de principio a fin para editar con Claude desde cero: cómo ordenar la
 aprenda tu estilo, qué mensaje mandar la primera vez y cómo corregir para que cada vídeo salga mejor que el anterior. Para
 vídeos hablados a cámara, en tu ordenador y sin abrir un programa de edición.
 
-Revisada el 1 de noviembre de 2026.
+Revisada el 5 de noviembre de 2026.
 
 ---
 
@@ -18,7 +18,8 @@ Para efectos más elaborados, sigue después con el capítulo 5.5.
 
 ## 1. Prepara el equipo
 
-- **Claude Code** en tu ordenador (capítulo 3.2), con un plan de pago de Claude.
+- **Claude Code** en tu ordenador (capítulo 3.2), con un plan de pago de Claude. Lo más sencillo es la app de escritorio de
+  Claude, no la del navegador: entra en la pestaña Code, abre un chat nuevo en local y elige tu carpeta de vídeos.
 - **Las skills del manual.** En el Mac, abre la Terminal, pega esta línea y pulsa Intro:
 
 ```bash
@@ -37,7 +38,8 @@ Sirven para cortar el vídeo, poner subtítulos y animaciones, estudiar los víd
 
 Instala las skills en `~/.claude/skills`. Luego cierra Claude Code y vuelve a abrirlo. Los programas que hacen el trabajo
 (ffmpeg y faster-whisper) te los comprueba Claude al empezar y te pide permiso antes de instalarlos. Son gratis y funcionan
-en tu ordenador; la primera transcripción descarga unos cientos de megas.
+en tu ordenador; la primera transcripción descarga unos cientos de megas. Para las animaciones, pídele que instale también
+Remotion: es gratis para particulares y equipos pequeños, y si lo usas en una empresa, mira antes su licencia.
 
 ## 2. Crea las carpetas
 
@@ -56,7 +58,7 @@ Te queda así:
 Mis videos/
 ├── MANUAL-EDICION.md   Tu estilo, por escrito. Sale en el paso 3
 ├── brutos/             Lo que grabas. Nunca se borra ni se toca
-├── referencias/        Dos o tres vídeos tuyos o de otros que te gustan
+├── referencias/        Hasta cinco vídeos tuyos o de otros que te gustan
 ├── imagenes/           Capturas y fotos que eliges tú
 └── terminados/         Lo que ya se puede publicar
 ```
@@ -67,7 +69,7 @@ terminar; él te pregunta antes.
 ## 3. La entrevista de estilo
 
 Tu estilo no puede vivir en tu cabeza. Esta entrevista lo deja escrito en un archivo que Claude lee antes de editar. Si
-puedes, deja antes en `referencias/` dos o tres vídeos que te gusten. Pega este mensaje:
+puedes, deja antes en `referencias/` hasta cinco vídeos que te gusten, y dile que se inspire en ellos sin copiarlos. Pega este mensaje:
 
 ```text
 Hazme la entrevista para escribir mi manual de edición, con la skill manual-de-edicion. Hazme las preguntas de dos en dos y
