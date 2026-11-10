@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Taller Barro</title>
+<style>
+/* Sistema: una familia (la del sistema), dos pesos, escala 1,25 sobre 17 px, neutros cálidos + un acento terracota,
+   espacios de 4 px, un radio. */
+:root{
+  --fuente: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --t1: 14px; --t2: 17px; --t3: 21px; --t4: 27px; --t5: 33px; --t6: 42px;
+  --fondo: #faf8f5; --superficie: #f1ede7; --linea: #e2dcd3; --texto-2: #5c554d; --texto: #1c1a17;
+  --acento: #a8471f; --sobre-acento: #ffffff;
+  --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px; --e7: 48px; --e8: 64px; --e9: 96px;
+  --radio: 8px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--fuente);font-size:var(--t2);line-height:1.6;background:#faf8f5;color:#1c1a17}
+.contenedor{max-width:1040px;margin:0 auto;padding:0 var(--e5)}
+header{padding:var(--e5) 0;font-weight:600}
+.portada{padding:var(--e8) 0 var(--e9);display:grid;grid-template-columns:1.1fr 1fr;gap:var(--e7);align-items:center}
+h1{font-size:var(--t6);line-height:1.15;font-weight:600;margin:0 0 var(--e4);letter-spacing:-0.01em}
+.entradilla{font-size:var(--t3);line-height:1.5;color:#5c554d;margin:0 0 var(--e6);max-width:34ch}
+.boton{display:inline-block;background:#a8471f;color:#ffffff;font-weight:600;font-size:var(--t2);padding:var(--e4) var(--e5);border-radius:var(--radio);text-decoration:none;min-height:48px}
+.nota{font-size:var(--t1);color:#5c554d;margin-top:var(--e3)}
+.foto{aspect-ratio:4/5;background:#f1ede7;border-radius:var(--radio);display:flex;align-items:center;justify-content:center;color:#5c554d;font-size:var(--t1);text-align:center;padding:var(--e5)}
+section{padding:var(--e9) 0;border-top:1px solid #e2dcd3}
+h2{font-size:var(--t5);line-height:1.2;font-weight:600;margin:0 0 var(--e5);max-width:24ch}
+.texto{max-width:65ch;color:#5c554d;margin:0}
+.pasos{list-style:none;padding:0;margin:var(--e7) 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--e6)}
+.pasos b{display:block;font-size:var(--t3);color:#1c1a17;margin-bottom:var(--e2)}
+.pasos span{color:#5c554d}
+.precio{font-size:var(--t4);font-weight:600;color:#1c1a17;margin:0 0 var(--e2)}
+footer{padding:var(--e7) 0;font-size:var(--t1);color:#5c554d;border-top:1px solid #e2dcd3}
+@media (max-width:760px){.portada{grid-template-columns:1fr;padding:var(--e7) 0 var(--e8)}h1{font-size:var(--t5)}.pasos{grid-template-columns:1fr}section{padding:var(--e8) 0}}
+</style></head><body>
+<div class="contenedor">
+<header>Taller Barro</header>
+<div class="portada">
+  <div>
+    <h1>Haz tu primera taza en el torno en una tarde.</h1>
+    <p class="entradilla">Clases de cerámica para adultos que nunca han tocado el barro. Grupos de seis, todo el material incluido.</p>
+    <a class="boton" href="#reservar">Reservar una clase de prueba</a>
+    <p class="nota">Martes y jueves de 18:30 a 21:00. Te la llevas a casa cocida tres semanas después.</p>
+  </div>
+  <div class="foto">[PENDIENTE: foto real de una alumna en el torno, con permiso]</div>
+</div>
+<section>
+  <h2>No hace falta ser «manitas». Hace falta paciencia con el barro.</h2>
+  <p class="texto">La primera pieza casi nunca sale redonda, y está bien. En la clase de prueba aprendes a centrar el barro, que es lo que más cuesta, y te vas con una taza o un cuenco hecho por ti.</p>
+  <ul class="pasos">
+    <li><b>Centrar</b><span>El primer cuarto de hora es solo esto: sentir cuándo el barro deja de bailar.</span></li>
+    <li><b>Abrir y subir</b><span>Con las manos mojadas, abres el centro y subes las paredes poco a poco.</span></li>
+    <li><b>Esmaltar</b><span>Una semana después eliges el color. La cocción la hacemos nosotras.</span></li>
+  </ul>
+</section>
+<section id="reservar">
+  <h2>Clase de prueba</h2>
+  <p class="precio">[PENDIENTE: precio] por persona</p>
+  <p class="texto">Dos horas y media, barro, herramientas, esmalte y cocción. Si después quieres seguir, el precio de la prueba se descuenta del primer mes.</p>
+  <p style="margin-top:32px"><a class="boton" href="#">Reservar una clase de prueba</a></p>
+</section>
+<footer>Taller Barro · [PENDIENTE: dirección] · [PENDIENTE: contacto]</footer>
+</div>
+</body></html>
