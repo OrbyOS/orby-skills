@@ -114,4 +114,6 @@ Nada se publica ni se envía sin tu visto bueno, salvo que tú le des más auton
 OrbyOS se puede publicar en un servidor pequeño con un solo comando (`./desplegar.sh`). Los pasos están en
 `INSTALAR.md` y `README.md` del repositorio.
 
-Si prefieres que te lo dejemos montado y adaptado a tu negocio, escríbenos desde [orbyos.es](https://orbyos.es).
+Si prefieres no montarlo tú, [Orby](https://orbyos.es) lleva toda la parte orgánica de tu negocio en un solo sistema: el
+contenido y las conversaciones que llegan después, con un manager que te acompaña uno a uno. Más clientes y más tiempo para
+ti. Escríbenos desde [orbyos.es](https://orbyos.es).

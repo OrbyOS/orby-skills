@@ -3,8 +3,8 @@
 Skills gratuitas para que Claude te haga el trabajo de contenido: editar tus reels, preparar lo que grabas, sacar
 ideas y montar tus propios agentes. Cada una resuelve una tarea entera, de principio a fin.
 
-Las hace el equipo de [Orby](https://orbyos.es), un equipo de agentes de IA de código abierto que lleva el
-contenido de una marca personal.
+Las hace el equipo de [Orby](https://orbyos.es), que lleva toda la parte orgánica de un negocio en un solo sistema
+conectado: el contenido y las conversaciones que llegan después, con un manager que lo dirige contigo uno a uno.
 
 ## Instálalas en 2 minutos
 
