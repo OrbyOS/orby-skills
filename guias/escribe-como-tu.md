@@ -1,41 +1,48 @@
-# Que Claude escriba como tú
+# Que la IA escriba como tú
 
-Claude puede escribir con tu tono, tus expresiones y tu forma de empezar y cerrar. La clave está en enseñarle tus textos, convertir lo que aprende en una guía de estilo y guardarla en una skill para no tener que explicárselo nunca más. Son tres prompts.
+Todo lo que se escribe con inteligencia artificial suena parecido porque le pedimos «un texto» y no «nuestro texto».
+La solución es darle tu forma de escribir convertida en reglas, y pegarlas en cada petición.
 
-Revisada el 9 de noviembre de 2026.
+Revisada el 15 de noviembre de 2026.
 
 ---
 
-## 1. Primer prompt: que analice cómo escribes
+## 1. Saca tus reglas
 
-Abre Claude y pega cinco textos tuyos: correos, publicaciones, mensajes a clientes. Cuanto más variados, mejor. Después:
+Busca tres textos tuyos que te gusten de verdad: un correo, un post, la transcripción de un vídeo. Pásaselos a ChatGPT
+o a Claude con esto:
 
-```text
-Analiza cómo escribo: mi tono, las palabras y expresiones que repito, cómo empiezo y cómo cierro, lo largas que son mis frases y lo que nunca hago.
-```
+> Te paso tres textos que he escrito yo. Analiza mi forma de escribir y conviértela en una lista de reglas concretas
+> que otra persona pudiera seguir: largo de las frases, cómo empiezo, palabras y expresiones que uso, las que no uso
+> nunca, el tono, cómo explico un ejemplo, cómo cierro y la puntuación. Cada regla con un ejemplo sacado de mis
+> textos. Nada genérico como «cercano» o «profesional»: solo lo que se ve en mis textos.
 
-## 2. Segundo prompt: la guía de estilo
+## 2. Guárdalas
 
-En el mismo chat:
+Copia la lista en una nota. En Claude puedes guardarla como instrucciones de un proyecto, o convertirla en una skill
+para que se aplique sola.
 
-```text
-Escribe una guía de mi estilo, con lo que siempre hago y lo que nunca hago, con ejemplos sacados de mis textos. Después reescribe este texto como si lo hubiera escrito yo: [pega un texto].
-```
+## 3. Úsalas en cada petición
 
-Lee el resultado. Si algo no suena a ti, díselo («yo no digo eso», «soy más directo») y pídele que corrija la guía. Repite hasta que el texto parezca tuyo.
+> Escribe [lo que necesites] siguiendo estas reglas de estilo: [pega tus reglas]. Antes de darme el texto, revisa
+> regla a regla que lo cumple.
 
-## 3. Tercer prompt: guárdalo en una skill
+## 4. Corrígelas
 
-Escribe `/skill-creator` y añade:
+Cada vez que cambies algo de un texto que te ha dado, pregúntate por qué. Si es por estilo, añade esa regla a la lista.
+En dos semanas el texto saldrá casi como lo escribirías tú.
 
-```text
-Crea una skill con esta guía de estilo, para que escribas como yo sin tener que volver a explicártelo. Que se use cuando te pida un correo, una publicación o un mensaje en mi nombre.
-```
+## 5. Atajo: empieza por una nota de voz
 
-A partir de ahí, eliges esa skill y cualquier texto sale con tu voz en segundos.
+Si tus guiones con IA suenan a robot, no le pidas que escriba: pídele que ordene lo que tú ya has dicho.
 
-## Lo que conviene saber
+1. Graba una nota de voz contando la idea como se la contarías a un amigo, sin preparar nada.
+2. Transcríbela (el móvil lo hace solo, o pásale el audio a ChatGPT o a Claude).
+3. Pega la transcripción con este prompt:
 
-- Revisa siempre lo que sale antes de enviarlo: la guía acierta en el tono, pero los datos y las promesas son cosa tuya.
-- Actualiza la guía cada pocos meses con textos nuevos. Tu forma de escribir también cambia.
-- Combínala con el capítulo «Que suene a ti, no a ChatGPT» para quitar las frases que delatan a la IA.
+> Te paso la transcripción de una nota de voz mía. Ordénala como guion de un vídeo corto: gancho, desarrollo y
+> cierre. Reglas: no cambies mis palabras ni mis expresiones, no añadas ideas que yo no haya dicho, quita solo
+> repeticiones, muletillas y frases que se quedan a medias, y si algo no se entiende, márcalo entre corchetes en
+> lugar de reescribirlo. Devuélveme el guion y, aparte, la lista de lo que has quitado.
+
+Suena a ti porque lo has dicho tú.
