@@ -58,6 +58,7 @@ No hace falta instalar nada: se leen aquí mismo.
 - [Skills de Claude para llevar un canal de YouTube](guias/skill-canal-youtube.md).
 - [Qué es MCP, explicado sin tecnicismos](guias/que-es-mcp.md).
 - [Cambia el ángulo de cámara de un vídeo ya grabado](guias/cambiar-angulo-video.md).
+- [CRM de WhatsApp con IA para cualquier negocio](guias/crm-whatsapp-ia.md): contesta, da cita y te avisa cuando te toca.
 - [Cuatro reglas para que Claude Code no se pase de listo](guias/karpathy-skills.md): qué dicen, cómo instalarlas y una versión para cualquier tarea.
 - [Que Claude te interrogue antes de construir nada](guias/grill-me.md): `grill-me` para campañas, webs y apps, sin programar.
 - [Claude y ChatGPT juntos](guias/claude-y-chatgpt-juntos.md): el plugin de Codex para Claude Code, con lo que gasta cada plan.
